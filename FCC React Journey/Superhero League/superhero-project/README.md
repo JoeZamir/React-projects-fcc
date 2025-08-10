@@ -1,12 +1,22 @@
-# React + Vite
+## **Superhero League**
+**Path:** `FCC React Journey/Superhero League/`
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Superhero League
 
-Currently, two official plugins are available:
+A React app to display and manage a list of superheroes.  
+Refactored from FCC browser project to Vite + React in VS Code.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Display superhero profiles
+- Add new superheroes
+- Remove superheroes from the list
 
-## Expanding the ESLint configuration
+## Tech Stack
+- React (Vite setup)
+- CSS Modules / Plain CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to Run Locally
+```bash
+cd "FCC React Journey/Superhero League/superhero-project"
+npm install
+npm run dev
