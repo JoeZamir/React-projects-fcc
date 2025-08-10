@@ -1,12 +1,21 @@
-# React + Vite
+## **Fruit Search App**
+**Path:** `FCC React Journey/Fruit Search App/`
+# Fruit Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A searchable fruit list built in React.  
+This project was originally created in the FCC browser editor and refactored into a Vite + React project in VS Code for a modular, maintainable structure.
 
-Currently, two official plugins are available:
+## Features
+- Search bar filters fruits by name
+- Instant filtering without page reload
+- Simple and clean UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React (Vite setup)
+- CSS Modules / Plain CSS
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to Run Locally
+```bash
+cd "FCC React Journey/Fruit Search App/my-react-app"
+npm install
+npm run dev
