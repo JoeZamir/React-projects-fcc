@@ -1,12 +1,22 @@
-# React + Vite
+## **Shopping List App**
+**Path:** `FCC React Journey/Shopping List App/`
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Shopping List App
 
-Currently, two official plugins are available:
+A React application for managing a shopping list.  
+Migrated from FCC browser project to Vite + React in VS Code.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Add shopping list items
+- Remove items
+- Mark items as purchased
 
-## Expanding the ESLint configuration
+## Tech Stack
+- React (Vite setup)
+- CSS Modules / Plain CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to Run Locally
+```bash
+cd "FCC React Journey/Shopping List App/shoppingList"
+npm install
+npm run dev
