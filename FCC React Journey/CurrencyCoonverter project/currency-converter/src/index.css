@@ -1,0 +1,22 @@
+.container {
+  margin: 0 auto;
+  background: #000080;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 10px 0 10px 0;
+  height: 40vh;
+}
+.container > * {
+  margin: 0 auto 10px auto;
+}
+select {
+  display: block;
+  width: 50%;
+  padding-bottom: 10px;
+}
+#number {
+  display: block;
+  width: 50%;
+}

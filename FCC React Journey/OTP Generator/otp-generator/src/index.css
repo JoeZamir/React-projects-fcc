@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+  background-color: antiquewhite;
+  width: fit-content;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+#generate-otp-button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+#otp-display {
+  background-color: aliceblue;
+  padding: 5px;
+  width: fit-content;
+  border-radius: 5px;
+  margin: 0 auto;
+}
