@@ -1,12 +1,25 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## **Mood Board Project**
+**Path:** `FCC React Journey/Mood Board Project/`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Mood Board
 
-## Expanding the ESLint configuration
+A simple visual board to add, display, and manage mood-based items.  
+Originally built in FCC’s browser environment, refactored for Vite + React in VS Code.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+- Add mood items with text/images
+- Remove items
+- Persistent state during a session
+
+## Tech Stack
+- React (Vite setup)
+- CSS Modules / Plain CSS
+
+## How to Run Locally
+```bash
+cd "FCC React Journey/Mood Board Project/moodboard"
+npm install
+npm run dev
